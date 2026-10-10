@@ -15,8 +15,8 @@ Classification, clustering, nearest-neighbor methods, and Matrix Profile analysi
 - [Fill in: whether the Matrix Profile found the inserted abnormal beat]
 
 ## Data
-- GunPoint and ECG200: [UCR/UEA Time Series Archive](http://timeseriesclassification.com/datasets). They download automatically in the notebook.
-- ECG Heartbeat Categorization Dataset by Shayan Fazeli on [Kaggle](https://www.kaggle.com/datasets/shayanfazeli/heartbeat). The data is not included in this repo. Download `mitbih_test.csv`, place it in the same folder as the notebook, and set `DATA_DIR`. I used this file and split it into train and test sets myself (60/40, stratified).
+- GunPoint and ECG200 come from the UCR/UEA Time Series Archive and are downloaded automatically by tslearn when the notebook runs.
+- ECG Heartbeat Categorization Dataset by Shayan Fazeli on [Kaggle](https://www.kaggle.com/datasets/shayanfazeli/heartbeat). The data is not included in this repo.    Download `mitbih_test.csv`, place it in the same folder as the notebook, and set `DATA_DIR`. I used this file and split it into train and test sets myself (60/40,   stratified).
 
 ## Tools
 Python, tslearn, stumpy, NumPy, pandas, Matplotlib, Google Colab
